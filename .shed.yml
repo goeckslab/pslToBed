@@ -1,0 +1,4 @@
+categories: []
+description: tranform a psl format file to a bed format file
+name: psltobed
+owner: remimarenco
