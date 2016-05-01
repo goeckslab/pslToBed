@@ -14,7 +14,7 @@
         <data name="output" format="bed" />
     </outputs>
     <help><![CDATA[
-pslToBed: tranform a psl format file to a bed format file.
+pslToBed: transform a psl format file to a bed format file.
 usage:
     pslToBed psl bed
 options:
