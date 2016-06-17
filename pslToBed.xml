@@ -5,6 +5,7 @@
         <exit_code range="1:" />
     </stdio>
     <command><![CDATA[
+        chmod +x $__tool_directory__/pslToBed
         $__tool_directory__/pslToBed $input $output
     ]]></command>
     <inputs>
@@ -14,18 +15,6 @@
         <data name="output" format="bed" />
     </outputs>
     <help><![CDATA[
-pslToBed: transform a psl format file to a bed format file.
-usage:
-    pslToBed psl bed
-options:
-    -cds=cdsFile
-cdsFile specifies a input cds tab-separated file which contains
-genbank-style CDS records showing cdsStart..cdsEnd
-e.g. NM_123456 34..305
-These coordinates are assumed to be in the query coordinate system
-of the psl, like those that are created from genePredToFakePsl
-    -posName
-changes the qName field to qName:qStart-qEnd
-(can be used to create links to query position on details page)
+        pslToBed: transform a psl format file to a bed format file.
     ]]></help>
 </tool>
