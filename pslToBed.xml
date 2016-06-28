@@ -1,12 +1,12 @@
 <tool id="pslToBed" name="pslToBed" version="0.1.0">
     <requirements>
+        <requirement type="package" version="324">ucsc-psltobed</requirement>
     </requirements>
     <stdio>
         <exit_code range="1:" />
     </stdio>
     <command><![CDATA[
-        chmod +x $__tool_directory__/pslToBed
-        $__tool_directory__/pslToBed $input $output
+        pslToBed $input $output
     ]]></command>
     <inputs>
         <param name="input" type="data" format="psl" />
