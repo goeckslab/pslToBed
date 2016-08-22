@@ -16,6 +16,9 @@
         <data name="output" format="bed" />
     </outputs>
     <help><![CDATA[
-        pslToBed: Transform a psl format file to a bed format file.
+        Transform a Psl format file to a Bed format file.
+
+        Input: Psl File
+        Ouput: Bed File
     ]]></help>
 </tool>
