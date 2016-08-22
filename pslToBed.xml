@@ -10,7 +10,7 @@
         pslToBed $input $output
     ]]></command>
     <inputs>
-        <param name="input" type="data" format="psl" />
+        <param name="input" label="Psl file" type="data" format="psl" />
     </inputs>
     <outputs>
         <data name="output" format="bed" />
@@ -18,7 +18,9 @@
     <help><![CDATA[
         Transform a Psl format file to a Bed format file.
 
+
         Input: Psl File
+
         Ouput: Bed File
     ]]></help>
 </tool>
