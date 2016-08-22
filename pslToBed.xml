@@ -1,5 +1,6 @@
 <tool id="pslToBed" name="pslToBed" version="0.1.0">
     <requirements>
+        <!-- Requires Conda -->
         <requirement type="package" version="324">ucsc-psltobed</requirement>
     </requirements>
     <stdio>
@@ -15,6 +16,6 @@
         <data name="output" format="bed" />
     </outputs>
     <help><![CDATA[
-        pslToBed: transform a psl format file to a bed format file.
+        pslToBed: Transform a psl format file to a bed format file.
     ]]></help>
 </tool>
